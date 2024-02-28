@@ -1,0 +1,30 @@
+.card {
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 10px 2px rgb(191, 188, 188);
+  text-align: center;
+}
+.nav-link {
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 8px 25px !important;
+  margin: 10px;
+}
+
+#courses h1 {
+  animation: zoomIn 0.5s, colorchange 2s 5s forwards;
+  
+}
+
+@keyframes colorchange {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
